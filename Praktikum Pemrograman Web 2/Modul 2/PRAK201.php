@@ -60,21 +60,14 @@
 
     ?>
 
-    <?php if (isset($_POST['submit'])): ?>
-    <table border="1" cellspacing="0" cellpadding="5" width="300" style="border-collapse: collapse;">
-        <tr>
-            <th align="left">Output</th> </tr>
-        <tr>
-            <td>
-                <?php
-                    echo $nama1 . "<br>";
+    <?php if (isset($_POST['submit'])){
+
+        echo $nama1 . "<br>";
                     echo $nama2 . "<br>";
                     echo $nama3 . "<br>";
-                ?>
-            </td>
-        </tr>
-    </table>
-    <?php endif; ?>
+    }
+
+    ?>
 
     </body>
 </html>
