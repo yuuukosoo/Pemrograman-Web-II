@@ -102,18 +102,18 @@ unset($mhs);
     <head>
         <title>PRAK 403</title>
         <style>
-            table{
-                border-collapse: collapse;
-                margin: 20px 0;
-                width: 100%;
-                max-width: 900px;
-            }
+             table 
+        { 
+            border-collapse: collapse; 
+        }
 
-            th, td {
-                border: 1px solid black;
-                padding: 10px 20px;
-                text-align: left;
-            }
+             th, td 
+        { 
+            border: 1px solid black; 
+            padding: 8px; 
+            text-align: left; 
+            vertical-align: top; 
+        }
 
             th{
                 background-color: #d3d3d3;
@@ -170,8 +170,6 @@ unset($mhs);
 
 
         </table>
-
-
     </body>
 
 </html>
