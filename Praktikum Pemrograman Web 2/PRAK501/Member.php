@@ -1,9 +1,7 @@
 <?php
 date_default_timezone_set('Asia/Makassar');
 
-
 require_once 'Model.php';
-
 
 if (isset($_GET['id_member'])) {
     $id = $_GET['id_member'];
@@ -44,12 +42,11 @@ $members = get_all_member();
 </head>
 <body class="bg-pastelgreen-50 min-h-screen text-gray-800">
 
-  
     <header class="bg-white border-b border-pastelgreen-200 sticky top-0 z-50">
         <div class="max-w-6xl mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center gap-4">
-            <span class="text-xl font-semibold text-pastelgreen-800 tracking-tight flex items-center gap-2">
-                <span class="text-2xl">🌱</span> Perpus PRAK501
-            </span>
+                <span class="text-xl font-semibold text-pastelgreen-800 tracking-tight flex items-center gap-2">
+                    <span class="text-2xl"></span> Perpus yuuukosoo
+                </span>
             <nav class="flex gap-1 bg-gray-100 p-1 rounded-lg">
                 <a href="Member.php" class="px-4 py-1.5 text-sm font-medium rounded-md bg-white text-pastelgreen-800 shadow-sm">Member</a>
                 <a href="Buku.php" class="px-4 py-1.5 text-sm font-medium rounded-md text-gray-600 hover:text-pastelgreen-800">Buku</a>
@@ -57,7 +54,6 @@ $members = get_all_member();
             </nav>
         </div>
     </header>
-
 
     <main class="max-w-6xl mx-auto px-4 py-8">
         <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-8">
@@ -119,9 +115,5 @@ $members = get_all_member();
             </div>
         </div>
     </main>
-
-    <footer class="mt-20 border-t border-pastelgreen-200/50 py-8 text-center text-xs text-gray-400">
-        <p>© 2026 Perpus PRAK501 • Minimalist Pastel Green Theme for Modul 5</p>
-    </footer>
 </body>
 </html>

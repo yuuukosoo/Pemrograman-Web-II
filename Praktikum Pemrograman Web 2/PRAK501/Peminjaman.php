@@ -1,10 +1,8 @@
 <?php
 date_default_timezone_set('Asia/Makassar');
 
-
 require_once 'Model.php';
 
-// Menangani permintaan penghapusan data
 if (isset($_GET['id_peminjaman'])) {
     $id = $_GET['id_peminjaman'];
     if (delete_peminjaman($id)) {
@@ -119,8 +117,5 @@ $borrowings = get_all_peminjaman();
         </div>
     </main>
 
-    <footer class="mt-20 border-t border-pastelgreen-200/50 py-8 text-center text-xs text-gray-400">
-        <p>© 2026 Perpus PRAK501 • Minimalist Pastel Green Theme for Modul 5</p>
-    </footer>
 </body>
 </html>

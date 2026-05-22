@@ -10,10 +10,8 @@ $tgl_pinjam = '';
 $tgl_kembali = '';
 $is_edit = false;
 
-
 $members = get_all_member();
 $books = get_all_buku();
-
 
 if (isset($_GET['id'])) {
     $id = $_GET['id'];

@@ -1,7 +1,6 @@
 <?php
 date_default_timezone_set('Asia/Makassar');
 
-
 require_once 'Model.php';
 
 $id = '';
@@ -11,7 +10,6 @@ $alamat = '';
 $tgl_daftar = '';
 $tgl_bayar = '';
 $is_edit = false;
-
 
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
@@ -26,7 +24,6 @@ if (isset($_GET['id'])) {
         $is_edit = true;
     }
 }
-
 
 if (isset($_POST['submit'])) {
     $nama = $_POST['nama_member'];

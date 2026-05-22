@@ -1,7 +1,6 @@
 <?php
 date_default_timezone_set('Asia/Makassar');
 
-
 require_once 'Model.php';
 
 $id = '';
@@ -10,7 +9,6 @@ $penulis = '';
 $penerbit = '';
 $tahun = '';
 $is_edit = false;
-
 
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
@@ -23,7 +21,6 @@ if (isset($_GET['id'])) {
         $is_edit = true;
     }
 }
-
 
 if (isset($_POST['submit'])) {
     $judul = $_POST['judul_buku'];
@@ -115,7 +112,6 @@ if (isset($_POST['submit'])) {
                     <label class="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1.5">Tahun Terbit</label>
                     <input type="number" name="tahun_terbit" value="<?= htmlspecialchars($tahun) ?>" required class="w-full border border-gray-200 hover:border-pastelgreen-200 focus:border-pastelgreen-500 hover:bg-gray-50/50 focus:bg-white rounded-xl px-4 py-2.5 text-sm focus:outline-none transition-all font-mono" min="1000" max="2100" placeholder="Contoh: 2024">
                 </div>
-
                 <div class="flex gap-3 justify-end pt-6 border-t border-gray-100 mt-6">
                     <a href="Buku.php" class="border border-gray-200 hover:bg-gray-50/80 text-gray-500 px-4 py-2.5 rounded-xl text-sm font-medium transition-colors">
                         Batal
