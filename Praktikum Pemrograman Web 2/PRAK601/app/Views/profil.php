@@ -13,7 +13,7 @@
 </head>
 <body class="bg-light">
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary ">
         <div class="container">
             <a class="navbar-brand fw-bold" href="<?= base_url(); ?>">PRAK601</a>
             <div class="navbar-nav ms-auto">
@@ -24,7 +24,7 @@
     </nav>
 
     <div class="container mt-5">
-        <div class="row align-items-stretch bg-white shadow rounded-3 overflow-hidden mx-auto" style="max-width: 900px;">
+        <div class="row align-items-stretch bg-white  rounded-3 overflow-hidden mx-auto" style="max-width: 900px;">
             
             <div class="col-md-5 p-0 d-none d-md-block">
                 <img src="<?= base_url('ilustrasi.jpg'); ?>" alt="Profil" class="full-img">

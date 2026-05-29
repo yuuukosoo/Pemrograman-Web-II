@@ -23,8 +23,8 @@
         </div>
     </nav>
 
-    <div class="container mt-5">
-        <div class="row align-items-stretch bg-primary text-white rounded-3 shadow overflow-hidden">
+    <div class="container mt-5  ">
+        <div class="row align-items-stretch bg-primary text-white rounded-3  overflow-hidden">
             
             <div class="col-md-7 p-5">
                 <h1 class="display-4 fw-bold mb-3">Selamat Datang!</h1>
