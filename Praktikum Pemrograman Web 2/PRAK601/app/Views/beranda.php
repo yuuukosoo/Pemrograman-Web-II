@@ -23,9 +23,9 @@
         </div>
     </nav>
 
-    <div class="container mt-5  ">
-        <div class="row align-items-stretch bg-primary text-white rounded-3  overflow-hidden">
-            
+    <div class="container mt-5">
+        
+        <div class="row align-items-stretch bg-primary text-white rounded-3 overflow-hidden">
             <div class="col-md-7 p-5">
                 <h1 class="display-4 fw-bold mb-3">Selamat Datang!</h1>
                 <p class="lead">Website ini menggunakan framework CodeIgniter 4 dengan konsep Model-View-Controller.</p>
@@ -40,8 +40,37 @@
             <div class="col-md-5 p-0 d-none d-md-block">
                 <img src="<?= base_url('ilustrasi.jpg'); ?>" alt="Foto" class="full-img">
             </div>
-
         </div>
+
+
+        <div class="row mt-4 mb-5">
+            <div class="col-12">
+
+                <div class="card border-0 rounded-3 overflow-hidden">
+                    
+                    <div class="row g-0 align-items-stretch">
+                        
+                        
+                        <div class="col-md-5 d-none d-md-block">
+                            <img src="<?= base_url('Ilustrasi2.jpg'); ?>" alt="About Me" class="full-img">
+                        </div>
+
+                        
+                        <div class="col-md-7 p-5">
+                            <h2 class="fw-bold text-primary mb-3">About Me</h2>
+                            <p class="text-muted fs-5 lh-base">
+                                Halo! Saya adalah mahasiswa program studi <?= $mhs['prodi']; ?>. 
+                                Saya memiliki minat yang besar dalam bidang pengembangan teknologi informasi, khususnya dalam <?= $mhs['skill']; ?>. 
+                                Melalui Modul 6 praktikum Pemrograman Web II ini, saya sedang mempelajari cara mengimplementasikan konsep MVC 
+                                menggunakan framework CodeIgniter 4 untuk membangun aplikasi web yang lebih terstruktur dan profesional.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        
     </div>
     
 </body>
