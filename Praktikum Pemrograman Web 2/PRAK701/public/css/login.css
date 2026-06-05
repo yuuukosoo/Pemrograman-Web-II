@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.login-card {
+    width: 100%;
+    max-width: 375px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 26px;
+    font-weight: 800;
+    color: #3c3c3c;
+    margin-bottom: 24px;
+    letter-spacing: -0.5px;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.duo-input {
+    width: 100%;
+    background-color: #f7f7f7;
+    border: 2px solid #e5e5e5;
+    border-radius: 16px;
+    padding: 16px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #3c3c3c;
+    outline: none;
+    transition: all 0.15s ease;
+}
+
+.duo-input:focus {
+    background-color: #ffffff;
+    border-color: #1cb0f6;
+}
+
+.duo-input::placeholder {
+    color: #afafaf;
+    font-weight: 700;
+}
+
+.forgot-text {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #afafaf;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.forgot-text:hover {
+    color: #777777;
+}
+
+.btn-duo-login {
+    width: 100%;
+    background-color: #1cb0f6;
+    border: none;
+    border-bottom: 4px solid #1899d6;
+    border-radius: 16px;
+    padding: 14px 20px;
+    font-size: 15px;
+    font-weight: 800;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    transition: filter 0.2s;
+    margin-top: 16px;
+}
+
+.btn-duo-login:hover {
+    filter: brightness(1.05);
+}
+
+.btn-duo-login:active {
+    transform: translateY(2px);
+    border-bottom: 2px solid #1899d6;
+}
+
+.alert-duo {
+    background-color: #ffebeb;
+    border: 2px solid #ffc1c1;
+    color: #ea2b2b;
+    border-radius: 16px;
+    padding: 14px 16px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.alert-duo-warning {
+    background-color: #fff4e5;
+    border: 2px solid #ffe0b2;
+    color: #f57c00;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #e5e5e5;
+    font-weight: 800;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin: 24px 0;
+}
+
+.divider::before, .divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.divider:not(:empty)::before {
+    margin-right: .5em;
+}
+
+.divider:not(:empty)::after {
+    margin-left: .5em;
+}

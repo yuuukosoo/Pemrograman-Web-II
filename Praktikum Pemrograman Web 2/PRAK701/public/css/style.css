@@ -1,0 +1,251 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #3c3c3c;
+    margin: 0;
+    padding-bottom: 60px;
+}
+
+.navbar-duo {
+    background-color: #ffffff;
+    border-bottom: 2px solid #e5e5e5;
+    padding: 16px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand-duo {
+    font-size: 20px;
+    font-weight: 800;
+    color: #58cc02;
+    text-decoration: none;
+}
+
+.navbar-user-duo {
+    font-weight: 800;
+    color: #4b4b4b;
+}
+
+.container-duo {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 800;
+    color: #3c3c3c;
+    margin: 0;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 800;
+    color: #3c3c3c;
+    margin: 0;
+}
+
+.btn-duo {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 12px 20px;
+    transition: filter 0.2s, transform 0.1s;
+}
+
+.btn-duo:active {
+    transform: translateY(2px);
+}
+
+.btn-duo-green {
+    background-color: #58cc02;
+    border-bottom: 4px solid #46a302;
+    color: #ffffff;
+}
+
+.btn-duo-green:active {
+    border-bottom-width: 2px;
+}
+
+.btn-duo-orange {
+    background-color: #ff9600;
+    border-bottom: 4px solid #e68500;
+    color: #ffffff;
+}
+
+.btn-duo-orange:active {
+    border-bottom-width: 2px;
+}
+
+.btn-duo-red {
+    background-color: #ff4b4b;
+    border-bottom: 4px solid #ea2b2b;
+    color: #ffffff;
+}
+
+.btn-duo-red:active {
+    border-bottom-width: 2px;
+}
+
+.btn-duo-secondary {
+    background-color: #ffffff;
+    border: 2px solid #e5e5e5;
+    border-bottom: 4px solid #e5e5e5;
+    color: #afafaf;
+}
+
+.btn-duo-secondary:active {
+    border-bottom-width: 2px;
+}
+
+.btn-duo-secondary:hover {
+    background-color: #f7f7f7;
+}
+
+.btn-sm {
+    padding: 8px 14px;
+    font-size: 12px;
+    border-radius: 12px;
+}
+
+.card-duo {
+    background-color: #ffffff;
+    border: 2px solid #e5e5e5;
+    border-radius: 20px;
+    padding: 24px;
+}
+
+.form-group-duo {
+    margin-bottom: 20px;
+}
+
+.form-label-duo {
+    display: block;
+    font-size: 14px;
+    font-weight: 800;
+    color: #4b4b4b;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+}
+
+.input-duo {
+    width: 100%;
+    background-color: #f7f7f7;
+    border: 2px solid #e5e5e5;
+    border-radius: 16px;
+    padding: 14px 18px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #3c3c3c;
+    outline: none;
+    transition: all 0.15s ease;
+}
+
+.input-duo:focus {
+    background-color: #ffffff;
+    border-color: #1cb0f6;
+}
+
+.input-duo.is-invalid {
+    border-color: #ff4b4b;
+    background-color: #ffebeb;
+}
+
+.invalid-feedback-duo {
+    color: #ff4b4b;
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 6px;
+}
+
+.form-text-duo {
+    color: #afafaf;
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 6px;
+}
+
+.alert-duo {
+    border-radius: 16px;
+    padding: 14px 18px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.alert-duo-success {
+    background-color: #e8f9eb;
+    border: 2px solid #a6ebb1;
+    color: #248a3d;
+}
+
+.alert-duo-warning {
+    background-color: #fff4e5;
+    border: 2px solid #ffe0b2;
+    color: #f57c00;
+}
+
+.table-container-duo {
+    border: 2px solid #e5e5e5;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.table-duo {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.table-duo th {
+    background-color: #f7f7f7;
+    color: #4b4b4b;
+    font-weight: 800;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    padding: 16px;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.table-duo td {
+    padding: 16px;
+    border-bottom: 2px solid #e5e5e5;
+    font-size: 15px;
+    font-weight: 700;
+    color: #3c3c3c;
+}
+
+.table-duo tr:last-child td {
+    border-bottom: none;
+}
+
+.action-group {
+    display: flex;
+    gap: 8px;
+}
